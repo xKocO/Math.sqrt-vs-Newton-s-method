@@ -29,6 +29,7 @@ func Sqrt(x float64) float64 {
 }
 
 func main() {
+	fmt.Println("Please input a number")
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')
 	input = strings.TrimSpace(input)
